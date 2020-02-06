@@ -1,0 +1,4 @@
+<% const run = command => `${props.packageManager} run ${command}${props.packageManager === 'npm' ? ' -s' : ''}` -%>
+{
+    <%= props.projectName %>
+}
